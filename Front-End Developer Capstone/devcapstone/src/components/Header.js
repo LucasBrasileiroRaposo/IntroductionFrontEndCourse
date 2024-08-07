@@ -3,7 +3,7 @@ import HeaderNav from "./Nav";
 
 function Header(){
     return (
-        <header><HeaderNav /></header>
+        <header className="Header"><HeaderNav /></header>
     );
 }
 

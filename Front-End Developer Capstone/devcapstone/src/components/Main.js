@@ -1,10 +1,14 @@
 import React from "react";
+import Promotion from "./Promotion";
+import Menu from "./Menu";
+import Reviews from "./Reviews";
 
 function Main(){
     return (
         <main>
-            <h1>Home</h1>
-            <p>Welcome to the home page</p>
+            <Promotion></Promotion>
+            <Menu></Menu>
+            <Reviews></Reviews>
         </main>
     );
 }
